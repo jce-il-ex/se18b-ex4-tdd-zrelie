@@ -17,3 +17,8 @@ test('digit should return the last digit of a number', function (t) {
   t.equal(3, digit(13));
   t.end();
 });
+
+test('digit should return the last digit of a number', function (t) {
+  t.equal(4, digit(14));
+  t.end();
+});
